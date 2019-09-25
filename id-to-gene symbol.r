@@ -1,8 +1,8 @@
 library(GEOquery)
 GPL5175 <-getGEO('GPL5175',destdir =".")
-GPL5175_anno <-  data.table::fread('./GPL5175.soft¡ä,skip ="ID")
+GPL5175_anno <-  data.table::fread('./GPL5175.softÂ¡Ã¤,skip ="ID")
 colnames(as.data.frame.table(GPL5175_anno))
-ID2symbol=data.frame(GPL5175_anno)[,c(1£¬10)]
+ID2symbol=data.frame(GPL5175_anno)[,c(1Â£Â¬10)]
 ID2symbol
 library(dplyr)
 library(tidyr)
